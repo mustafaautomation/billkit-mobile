@@ -19,7 +19,7 @@ const config: ExpoConfig = {
   android: {
     package: 'com.quvantic.billkit',
     adaptiveIcon: {
-      backgroundColor: '#0E6B66',
+      backgroundColor: '#1F4D3A',
       foregroundImage: './assets/android-icon-foreground.png',
       backgroundImage: './assets/android-icon-background.png',
       monochromeImage: './assets/android-icon-monochrome.png',
@@ -49,9 +49,9 @@ const config: ExpoConfig = {
     [
       'expo-splash-screen',
       {
-        backgroundColor: '#0E6B66',
+        backgroundColor: '#1F4D3A',
         image: './assets/splash-icon.png',
-        imageWidth: 180,
+        imageWidth: 96,
       },
     ],
     'expo-web-browser',
