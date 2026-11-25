@@ -1,0 +1,24 @@
+appId: com.quvantic.billkit
+---
+- launchApp
+- tapOn:
+    id: try-demo
+- assertVisible: Northwind Studio
+- assertVisible:
+    id: dashboard-collected
+- tapOn:
+    id: tab-invoices
+- tapOn:
+    id: filter-overdue
+- tapOn:
+    id: invoice-inv_1042
+- assertVisible: INV-1042
+- tapOn:
+    id: send-reminder
+- assertVisible: Reminder queued for ada@lumen.health
+- tapOn:
+    id: view-pdf
+- assertVisible:
+    id: invoice-paper
+- assertVisible:
+    id: share-pdf

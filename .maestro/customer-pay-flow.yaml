@@ -1,0 +1,16 @@
+appId: com.quvantic.billkit
+---
+- launchApp:
+    clearState: true
+- openLink: billkit://pay/pay_atlas_1048
+- assertVisible: Atlas Goods
+- tapOn:
+    id: pay-now
+- tapOn:
+    id: card-name
+- inputText: Ada Lovelace
+- tapOn:
+    id: mock-pay-confirm
+- assertVisible:
+    id: paid-state
+- assertVisible: Paid
