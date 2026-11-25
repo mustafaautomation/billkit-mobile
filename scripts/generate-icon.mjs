@@ -6,7 +6,7 @@
 //
 // <svg viewBox="0 0 32 32">
 //   <rect width="32" height="32" rx="8" fill="#1f4d3a"/>
-//   <path d="M9 23V9h3.1l3.9 6.6L19.9 9H23v14h-2.5v-8.6L17 21h-2l-3.5-6.6V23H9z" fill="#f6f1e7"/>
+//   <path d="M10 8h7.2c3 0 4.8 1.5 4.8 4c0 1.6-.8 2.7-2.1 3.3c1.8.5 2.9 1.9 2.9 3.8c0 2.9-2 4.9-5.4 4.9H10V8zm3.2 2.7v4.1h3.6c1.4 0 2.2-.8 2.2-2.1s-.8-2-2.2-2h-3.6zm0 6.7v4.9h4c1.6 0 2.5-.9 2.5-2.5s-.9-2.4-2.5-2.4h-4z" fill="#f6f1e7"/>
 // </svg>
 import { Buffer } from 'node:buffer';
 import fs from 'node:fs';
@@ -20,7 +20,7 @@ const LOGO = {
   name: 'Billkit',
   elements: [
     { type: 'rect', x: 0, y: 0, width: 32, height: 32, rx: 8, fill: '#1f4d3a' },
-    { type: 'path', d: 'M9 23V9h3.1l3.9 6.6L19.9 9H23v14h-2.5v-8.6L17 21h-2l-3.5-6.6V23H9z', fill: '#f6f1e7' },
+    { type: 'path', d: 'M10 8h7.2c3 0 4.8 1.5 4.8 4c0 1.6-.8 2.7-2.1 3.3c1.8.5 2.9 1.9 2.9 3.8c0 2.9-2 4.9-5.4 4.9H10V8zm3.2 2.7v4.1h3.6c1.4 0 2.2-.8 2.2-2.1s-.8-2-2.2-2h-3.6zm0 6.7v4.9h4c1.6 0 2.5-.9 2.5-2.5s-.9-2.4-2.5-2.4h-4z', fill: '#f6f1e7' },
   ],
 };
 
